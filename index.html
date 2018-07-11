@@ -1,1 +1,365 @@
-hello world
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>index</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">@charset "UTF-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background: transparent;
+}
+
+body {
+background: white;
+color: #fff;
+font-weight: 500;
+font-family: Helvetica, meiryo, "Yu Gothic", sans-serif;
+margin: 20px;
+font-size:1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+color: #333;
+font-weight: 500;
+}
+h1 {
+font-size: 2.2rem;
+line-height: 1.2;
+font-weight: bold;
+color: #444;
+margin: 20px 0;
+}
+h2 {
+margin: 1.8em 0 .5em;
+padding-left: 0;
+letter-spacing: 1px;
+font-size: 1.8rem;
+font-weight: bold;
+vertical-align: bottom;
+line-height: 1.2;
+border-bottom:3px solid #333;
+}
+h3 {
+margin: 8px 0 12px 0;
+padding: 0 0 0 5px;
+line-height: 1.05;
+vertical-align: bottom;
+font-size: 1.3rem;
+font-weight: bold;
+letter-spacing: 1px;
+border-left: 14px solid #aaa;
+}
+h4 {
+margin: 5px 0 5px 5px;
+font-size: 1.2rem;
+font-weight: bold;
+}
+h5 {
+margin: 0 0 0 5px;
+padding-left:5px;
+font-size: 1rem;
+color: #222;
+border-left:3px solid #999;
+}
+h6 {
+margin: 0 0 6px 0;
+padding: 8px 5px;
+font-size: 1.2rem;
+color: #fff;
+background-color: #999;
+}
+h5 + pre {
+margin-top: 0;
+}
+
+a {
+text-decoration: underline;
+}
+a:link {
+color: #0076e0;
+}
+a:visited {
+color: #39f;
+}
+a:hover {
+text-decoration: none;
+color: #009cd5;
+}
+
+img {
+vertical-align: top;
+max-width: 100%;
+height: auto;
+}
+
+figure,
+dl,
+ol,
+ul,
+p,
+pre,
+table {
+color: #333333;
+margin-bottom: 1.5em;
+}
+
+ul,
+ol {
+margin-left: 28px;
+}
+li {
+margin-bottom: .7em;
+}
+dl dt {
+color: #333;
+font-size: 1rem;
+}
+dl dd {
+margin-bottom: 1.2em;
+padding-bottom: 1.4em;
+border-bottom: 1px solid #f1f1f1;
+}
+dl dd:last-of-type {
+padding-bottom: 0;
+border-bottom: 0;
+}
+dd {
+margin-left: 24px;
+}
+
+table,
+.vscode-dark table {
+line-height: 1.6em;
+border-collapse: collapse;
+margin-left:5px;
+}
+table > thead,
+.vscode-dark table > thead {
+background-color: #f0f0f0;
+}
+table > thead > tr > th,
+.vscode-dark table > thead > tr > th {
+text-align: left;
+Color:#666;
+}
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td,
+.vscode-dark table > thead > tr > th,
+.vscode-dark table > thead > tr > td,
+.vscode-dark table > tbody > tr > th,
+.vscode-dark table > tbody > tr > td {
+padding: 3px 10px;
+border: 1px solid #aaa;
+}
+table > tbody > tr + tr > td,
+.vscode-dark table > tbody > tr + tr > td {
+border: 1px solid #aaa;
+}
+
+hr {
+border: 0;
+height: 1px;
+width: 8%;
+margin: 80px 0 50px;
+padding: 0;
+background: rgba(153, 153, 153, 0.3);
+}
+
+mark {
+font-style: normal;
+background: rgba(255, 255, 0, 0.5);
+}
+em {
+margin: 0 3px;
+padding: 0 5px;
+background: rgba(255, 192, 203, 0.3);
+font-weight: bold;
+}
+small {
+font-size: 80%;
+}
+strong {
+font-weight: bold;
+}
+
+code,
+.vscode-dark code {
+color: darkslateblue;
+}
+pre code,
+.vscode-dark pre code {
+color: #111;
+}
+pre,
+.vscode-dark pre {
+padding: 1px; font-family: "consolas", "Source Code Pro", "Consolas", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", "Meiryo", verdana, sans-serif;
+font-weight: normal;
+}
+pre,
+.vscode-dark pre {
+margin:2px 2px 25px 5px;
+}
+pre *,
+.vscode-dark pre * {
+background-color: #333377;
+}
+pre code,
+.vscode-dark pre code {
+background-color: #ddd;
+}
+
+pre:not(.hljs),
+.vscode-dark pre:not(.hljs) {
+background-color: #ddd;
+padding:10px 10px 10px 14px;
+}
+pre.hljs,
+.vscode-dark pre.hljs {
+}
+pre.hljs code > div,
+.vscode-dark pre.hljs code > div {
+background-color: #eee;
+padding:10px 10px 10px 14px;
+}
+pre:not(.hljs) code > div,
+.vscode-dark pre:not(.hljs) code > div {
+}
+code,
+.vscode-dark code {
+font-family: "Source Code Pro", "Consolas", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", "Meiryo", verdana, sans-serif;
+font-weight: normal;
+border-radius: 2px;
+font-size: 0.9rem;
+line-height: 1.3;
+}
+
+figure {
+padding: 1px;
+margin-left: 0;
+margin-right: 0;
+background: #eee;
+}
+figure figcaption {
+margin-bottom: 1px;
+padding: 5px 15px;
+background: #eee;
+font-size: 1.2rem;
+letter-spacing: .1em;
+text-shadow: 1px 1px 0 white;
+}
+figure pre {
+margin-bottom: 0;
+}
+figure pre+figcaption {
+margin-top: 1px;
+}
+
+blockquote {
+position: relative;
+margin-bottom: 1em;
+margin: 0 0 10px 10px;
+padding: 1.5em 15px 1px 35px;
+background: #fafafa;
+border: 1px solid #f1f1f1;
+font-size: 1rem;
+}
+blockquote:before {
+content: "\"";
+position: absolute;
+top: 5px;
+left: 5px;
+font-size: 2.5rem;
+color: #999;
+font-family: "Source Code Pro", "Consolas", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", "Meiryo", verdana, sans-serif;
+}
+cite {
+font-style: italic;
+}
+iframe {
+max-width: 100%;
+}
+p {
+margin-left: 5px;
+}
+sup {
+vertical-align: super;
+}</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="visual-studio-community-2017-のインストール">Visual Studio Community 2017 のインストール</h1>
+<p>Visual Studio Community 2107 のインストール方法について説明します。</p>
+<h2 id="visual-studioインストール用プログラムのダウンロードと起動する">Visual Studioインストール用プログラムのダウンロードと起動する</h2>
+<ol type="1">
+<li>以下のページにアクセスします。</li>
+</ol>
+<p><a href="https://visualstudio.microsoft.com/downloads">Visual Studio Downloads</a></p>
+<ol start="2" type="1">
+<li><p>ページ左下のVisual Studio Community 2017の[Free Download]ボタンをクリックします。</p></li>
+<li><p>ブラウザで、[実行],[保存],[キャンセル]のボタンが表示されますので、[保存]を選択し、プログラムをディスクに保存します。</p></li>
+<li><p>ダウンロードが完了したら[実行]ボタンを押し、プログラムを起動します。</p></li>
+</ol>
+<h2 id="visual-studioをインストールを開始する">Visual Studioをインストールを開始する</h2>
+<ol type="1">
+<li><p>ユーザアカウント制御のダイアログが表示された場合は、[はい]をクリックします。</p></li>
+<li><p>「プライバシーに関する声明」と「Microsoftソフトウェアのライセンス条項」の確認を求められますので、[続行] ボタンをクリックします。</p></li>
+<li><p>Visual Studio Installerのダウンロードとインストールが開始されます。</p></li>
+</ol>
+<h2 id="ワークロードを選択する">ワークロードを選択する</h2>
+<ol start="4" type="1">
+<li><p>インストーラが起動すると、ワークロードの選択画面が表示されます。この画面で、Visual Studioでどのような開発を行うかを指定します。</p>
+<p>例えば、Windows用のデスクトップアプリケーションの開発を行うならば「.NET デスクトップ開発」をチェックします。Webアプリケーションの開発を行う場合は「ASP.NETとWeb開発」をチェックします。ワークロードは複数選択することが可能です。</p></li>
+<li><p>必要なワークロードを選択したら、画面右下の[インストール] ボタンをクリックします。なお、書籍『』に掲載されているプログラムコードを動かすには、「.NET デスクトップ開発」をチェックしてください。このワークロードはインストール後に追加することができます<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>。</p></li>
+<li><p>インストールか開始されます。選択するワークロードの数、コンピュータの性能にもよりますが、1時間以上かかる場合もあります。</p></li>
+</ol>
+<h2 id="visual-studio-にサインインする">Visual Studio にサインインする</h2>
+<ol start="7" type="1">
+<li></li>
+</ol>
+<p>から、Visual Studio Community 2107をダウンロードします。</p>
+<p>Visual Studio ブートストラップ ファイルをダウンロードします。 これを行うには、以下のボタンをクリックし、必要な Visual Studio 2017 のエディションを選択して、[保存]、[フォルダーを開く] の順にクリックします。 Visual Studio 2017 のインストール</p>
+<h2 id="事前準備">事前準備</h2>
+<ol type="1">
+<li></li>
+</ol>
+<section class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>ワークロードを後から追加するには、スタートメニューから [Visual Studio インストーラー]を開きます。 ここで、インストールするワークロードを選択し[変更] をクリックします。<a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
+</section>
+</body>
+</html>

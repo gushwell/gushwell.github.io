@@ -1,0 +1,4 @@
+{
+    "pandoc.htmlOptString": "-s -c csbook.css -t html5",
+
+}
