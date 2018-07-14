@@ -19,49 +19,49 @@
 <body>
 <h1 id="visual-studio-community-2017-のインストール手順">Visual Studio Community 2017 のインストール手順</h1>
 <p>Visual Studio Community 2107 のインストール方法について説明します。</p>
+<p>Visual Studio Community 2107は個人開発者や教育、学術研究用に無償で提供されるソフトウェアです。商用利用においては制限がありますので、<a href="https://visualstudio.microsoft.com/ja/license-terms/mlt553321/">ライセンス条項</a>をお確かめの上、インストールしてください。</p>
 <h2 id="visual-studioインストール用プログラムのダウンロードと起動する">Visual Studioインストール用プログラムのダウンロードと起動する</h2>
 <ol type="1">
 <li><p>以下のページにアクセスします。</p>
 <p><a href="https://visualstudio.microsoft.com/ja/downloads">Visual Studio Downloads</a></p></li>
 <li><p>ページ左下のVisual Studio Community 2017の[Free Download]ボタンをクリックします。</p>
-<p><img src="images/vsinstall01.png" /></p></li>
-<li><p>ブラウザで、[実行],[保存],[キャンセル]のボタンが表示されますので、[保存]を選択し、プログラムをディスクに保存します。</p>
+<p><img src="images/vsinstall01.png" /></p>
+<p>例えば、Edgeの場合は、以下のようなダイアログが表示されますので、[保存]を選択し、プログラムをディスクに保存します。</p>
 <p><img src="images/vsinstall02.png" /></p></li>
-<li><p>ダウンロードが完了したら[実行]ボタンを押し、プログラムを起動します。</p>
+<li><p>ファイルをダウンロードしたら、ダウンロードしたプログラムを実行します。例えば、Edgeの場合は、以下のようなダイアログが表示されますので、[実行]を選択します。</p>
 <p><img src="images/vsinstall03.png" /></p></li>
 </ol>
 <h2 id="visual-studioをインストールを開始する">Visual Studioをインストールを開始する</h2>
-<ol start="5" type="1">
+<ol start="4" type="1">
 <li><p>ユーザアカウント制御のダイアログが表示された場合は、[はい]をクリックします。</p>
 <p><img src="images/vsinstall04.png" /></p></li>
-<li><p>「プライバシーに関する声明」と「Microsoftソフトウェアのライセンス条項」の確認を求められますので、[続行] ボタンをクリックします。</p>
+<li><p>「プライバシーに関する声明」と「Microsoftソフトウェアのライセンス条項」の確認を求められますので、確認した後、[続行] ボタンをクリックします。</p>
 <p><img src="images/vsinstall05.png" /></p></li>
 <li><p>Visual Studio Installerのダウンロードとインストールが開始されます。</p>
 <p><img src="images/vsinstall06.png" /></p></li>
 </ol>
 <h2 id="ワークロードを選択する">ワークロードを選択する</h2>
-<ol start="8" type="1">
+<ol start="7" type="1">
 <li><p>インストーラが起動すると、ワークロードの選択画面が表示されます。この画面で、Visual Studioでどのような開発を行うかを指定します。</p>
 <p><img src="images/vsinstall07.png" /></p>
 <p>例えば、Windows用のデスクトップアプリケーションの開発を行うならば「.NET デスクトップ開発」をチェックします。Webアプリケーションの開発を行う場合は「ASP.NETとWeb開発」をチェックします。ワークロードは複数選択することが可能です。</p></li>
 <li><p>必要なワークロードを選択したら、画面右下の[インストール] ボタンをクリックします。</p>
 <p><img src="images/vsinstall08.png" /></p>
 <p>なお、書籍『』に掲載されているプログラムコードを動かすには、「.NET デスクトップ開発」をチェックしてください。このワークロードはインストール後に追加することができます<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>。</p></li>
-<li><p>インストールか開始されます。Visual Studio のインストールの進行状況が示されます。選択するワークロードの数、コンピュータの性能にもよりますが、1時間以上かかる場合もあります。</p>
+<li><p>インストールか開始されます。Visual Studio のインストールの進行状況が示されます。選択するワークロードの数、コンピュータの性能、ネットワークの回線速度にもよりますが、インストールに1時間以上かかる場合もあります。</p>
 <p><img src="images/vsinstall09.png" /></p></li>
-<li><p>インストールが完了すると、自動的にVisual Studio が起動します。</p></li>
 </ol>
 <h2 id="visual-studio-にサインインする">Visual Studio にサインインする</h2>
-<ol start="12" type="1">
-<li><p>Visual Studio  のようこその画面が表示されます。</p>
+<ol start="10" type="1">
+<li><p>インストールが完了すると、自動的にVisual Studio が起動し「ようこそ」の画面が表示されます。</p>
 <p><img src="images/vsinstall10.png" /></p>
-<p>Microsoftアカウントをお持ちの方は、[サインイン]のボタンを押して、サインインして17へ進んでください。</p>
+<p>Microsoftアカウントをお持ちの方は、[サインイン]ボタンを押して、サインインして15へ進んでください。</p>
 <p>Microsoftアカウントをお持ちで無い方は、[サインアップ]のリンクをクリックしてください。</p></li>
 <li><p>アカウント作成のウィンドウが表示されますので、ここで、あなたのメールアドレスを入力し、[次へ]ボタンをクリックします。</p>
 <p><img src="images/vsinstall11.png" /></p></li>
 <li><p>次にパスワード作成のウインドウで、Microsoftアカウントのパスワードを入力し、[次へ]ボタンをクリックします。</p>
 <p><img src="images/vsinstall12.png" /></p></li>
-<li><p>8で入力したメールアドレスにメールが届きます。メールに記載されている確認コードを入力し、[次へ]ボタンをクリックします。</p>
+<li><p>13で入力したメールアドレスにメールが届きます。メールに記載されている確認コードを入力し、[次へ]ボタンをクリックします。</p>
 <p><img src="images/vsinstall13.png" /></p></li>
 <li><p>アカウントの作成ウインドウが表示されます。画像に表示されている英数字の文字を入力欄に入力し、[次へ]ボタンをクリックします。</p>
 <p><img src="images/vsinstall14.png" /></p></li>
@@ -70,7 +70,6 @@
 <li><p>Visual Studioが起動し、C#での開発が行えるようになります。</p>
 <p><img src="images/vsinstall16.png" /></p></li>
 </ol>
-<hr />
 <p>以上でインストールは完了です。</p>
 <section class="footnotes">
 <hr />
