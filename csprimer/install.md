@@ -22,7 +22,7 @@ Visual Studio Community 2107は個人開発者や教育、学術研究用に無�
 
     ![](images/vsinstall03.png)
 
-## Visual Studioをインストールを開始する
+## Visual Studioのインストールを開始する
 
 4. ユーザアカウント制御のダイアログが表示された場合は、[はい]をクリックします。
 
