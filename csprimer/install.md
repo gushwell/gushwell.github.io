@@ -6,13 +6,13 @@
 
 本文では説明できなかった、Visual Studio Community 2107 のインストール方法について説明しています。
 
-Visual Studio Community 2107は個人開発者や教育、学術研究用に無償で提供されるソフトウェアです。商用利用においては制限がありますので、[ライセンス条項](https://visualstudio.microsoft.com/ja/license-terms/mlt553321/)をお確かめの上、インストールしてください。
+Visual Studio Community 2107は個人開発者や教育、学術研究用に無償で提供されるソフトウェアです。商用利用においては制限がありますので、<a href="https://visualstudio.microsoft.com/ja/license-terms/mlt553321/" target="_blank">ライセンス条項</a>をお確かめの上、インストールしてください。
 
 ## Visual Studioインストール用プログラムをダウンロードし起動する
 
 1. 以下のページにアクセスします。
 
-    [Visual Studio Downloads](https://visualstudio.microsoft.com/ja/downloads)
+    <a href="https://visualstudio.microsoft.com/ja/downloads" target="_blank">Visual Studio Downloads</a>
 
 2. ダウンロードページの「コミュニティ」欄の[無償ダウンロード]ボタンをクリックします。
 
