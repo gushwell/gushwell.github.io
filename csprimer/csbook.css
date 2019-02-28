@@ -111,6 +111,11 @@ h5 + pre {
 }
 
 /* リンク */
+
+a.footnote-back {
+  text-decoration: none;
+}
+
 a {
   text-decoration: underline;
 }
