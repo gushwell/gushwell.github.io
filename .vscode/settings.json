@@ -1,4 +1,4 @@
 {
-    "pandoc.htmlOptString": "-s -c csbook.css -t html5",
+    "pandoc.htmlOptString": "-s --self-contained -c csbook.css -t html5",
 
 }
