@@ -1,1 +1,13 @@
-[Visual Studio 2017 インストール手順](csprimer/install.html)
+# 『なるほどなっとくC#入門』(技術評論社)サポートページ
+
+本ページは、書籍『新・標準プログラマーズライブラリ なるほどなっとくC#入門』(技術評論社)の読者のための補助資料として公開するものです。
+
+書籍では説明できなかった、Visual Studioのインストール手順と、Visual Stidio 2019でのプロジェクト作成方法について説明しています。
+
+
+1. [Visual Studio 2017 インストール手順](vs2017/install.html)
+
+2. [Visual Studio 2019 インストール手順](vs2019/install.html)
+
+3. [Visual Studio 2019 プロジェクトの作成方法](vs2019/createProject.html)
+
