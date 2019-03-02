@@ -1,7 +1,3 @@
----
-layout: default
-title: 『なるほどなっとくC#入門』サポートページ
----
 
 # Visual Studio Community 2017 のインストール手順
 
