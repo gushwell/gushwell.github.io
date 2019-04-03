@@ -38,7 +38,7 @@ body {
   font-weight: 500;
   font-family: Helvetica, meiryo, "Yu Gothic", sans-serif;
   font-size:1rem;
-  width:760px;
+  max-width:760px;
   margin: 0 auto;
 }
 
