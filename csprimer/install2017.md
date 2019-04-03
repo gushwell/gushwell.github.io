@@ -14,9 +14,9 @@ Visual Studio Community 2017は個人開発者や教育、学術研究用に無�
 
     <a href="https://visualstudio.microsoft.com/ja/downloads" target="_blank">Visual Studio Downloads</a>
 
-2. ダウンロードページの「コミュニティ」欄の\[無償ダウンロード\]ボタンをクリックします。
+2. ページを下にスクロールすると、Visual Studio 2017のダウンロードページが現れます。この「コミュニティ」ボタンをクリックします。
 
-    ![](images/2017/vsinstall01.png)
+    ![](images/2017/vsinstall011.png)
 
     例えば、Edgeの場合は、以下のようなダイアログが表示されますので、\[保存\]を選択し、プログラムをディスクに保存します。
 

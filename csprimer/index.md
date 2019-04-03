@@ -7,8 +7,8 @@
 
 1. [Visual Studio 2017 インストール手順](install2017.html)
 
-2. [Visual Studio 2019 インストール手順]() 準備中
+2. [Visual Studio 2019 インストール手順](install2019.html)
 
-3. [Visual Studio 2019 プロジェクトの作成方法]() 準備中
+3. [Visual Studio 2019 プロジェクトの作成方法](newproj2019.html)
 
 
