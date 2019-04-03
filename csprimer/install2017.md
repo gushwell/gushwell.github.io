@@ -14,7 +14,7 @@ Visual Studio Community 2017は個人開発者や教育、学術研究用に無�
 
     <a href="https://visualstudio.microsoft.com/ja/downloads" target="_blank">Visual Studio Downloads</a>
 
-2. ページを下にスクロールすると、Visual Studio 2017のダウンロードページが現れます。この「コミュニティ」ボタンをクリックします。
+2. ページを下にスクロールすると、Visual Studio 2017のダウンロードコーナーが現れます。ここの\[コミュニティ\]ボタンをクリックします。
 
     ![](images/2017/vsinstall011.png)
 
